@@ -1,0 +1,81 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminPassword": {
+            "value": "ArabandiArabandi!"
+        },
+        "adminUsername": {
+            "value": "azure"
+        },
+        "authenticationType": {
+            "value": "password"
+        },
+        "diagnosticStorageAccountName": {
+            "value": "chefdiag51d1f2e02b"
+        },
+        "diagnosticStorageAccountNewOrExisting": {
+            "value": "new"
+        },
+        "diagnosticStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticStorageAccountResourceGroup": {
+            "value": "chef"
+        },
+        "location": {
+            "value": "centralus"
+        },
+        "publicIPAddressName": {
+            "value": "ChefAutomatePubIP"
+        },
+        "publicIPAddressResourceGroup": {
+            "value": "chef"
+        },
+        "publicIPDnsName": {
+            "value": "chef123"
+        },
+        "publicIPNewOrExisting": {
+            "value": "new"
+        },
+        "resourceGroupName": {
+            "value": "chef"
+        },
+        "storageAccountName": {
+            "value": "chefdisk10a164b18a"
+        },
+        "storageAccountNewOrExisting": {
+            "value": "new"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "storageAccountResourceGroup": {
+            "value": "chef"
+        },
+        "subnetName": {
+            "value": "chefautomate-subnet"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "virtualNetworkAddressPrefix": {
+            "value": "10.0.0.0/22"
+        },
+        "virtualNetworkName": {
+            "value": "vnet01"
+        },
+        "virtualNetworkNewOrExisting": {
+            "value": "new"
+        },
+        "virtualNetworkResourceGroup": {
+            "value": "chef"
+        },
+        "vmName": {
+            "value": "ChefAutomate"
+        },
+        "vmSize": {
+            "value": "Standard_D2_v2"
+        }
+    }
+}
